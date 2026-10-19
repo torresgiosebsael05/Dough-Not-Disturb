@@ -498,3 +498,189 @@ html, body {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
+
+.contact-container {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.contact-title {
+  font-family: 'Lilita One', Helvetica, sans-serif;
+  color: #401809;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.contact-info {
+  font-family: 'Fredoka One', Helvetica, sans-serif;
+  color: #401809;
+  font-size: 24px;
+  line-height: 2.2;
+}
+
+/* About Page Centered Layout */
+.about-container {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  padding-bottom: 50px;
+}
+
+.about-title {
+  font-family: 'Lilita One', Helvetica, sans-serif;
+  color: #401809;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.about-content {
+  font-family: 'Fredoka One', Helvetica, sans-serif;
+  color: #401809;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+/* Red Curved Cards for About & Contact Pages */
+.about-card,
+.contact-card {
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 85%;
+  max-width: 850px;
+  background-color: #b82b46; /* Matches your ORDER NOW button red */
+  border-radius: 28px; /* Smooth rounded corners */
+  padding: 40px 35px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Soft background drop shadow */
+  color: #ffffff; /* Crisp white text inside the red box */
+}
+
+/* Titles inside the red box */
+.about-title,
+.contact-title {
+  font-family: 'Lilita One', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Content inside the red box */
+.about-content,
+.contact-info {
+  font-family: 'Fredoka One', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about-content p,
+.contact-info p {
+  margin-bottom: 18px;
+}
+
+.map-container {
+  margin: 20px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+}
+
+/* Menu Page Layout & Styling */
+.menu-container {
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1100px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.menu-title {
+  font-family: 'Lilita One', Helvetica, sans-serif;
+  color: #401809;
+  font-size: 42px;
+  margin-bottom: 35px;
+}
+
+/* Flex Container for Menu Cards */
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual Red Card */
+.menu-card {
+  background-color: #b82b46; /* Matching brand red */
+  border-radius: 24px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.25);
+}
+
+/* Image Styling */
+.menu-card .image-wrapper {
+  width: 100%;
+  height: 200px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Title inside Card */
+.menu-card h3 {
+  font-family: 'Lilita One', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 10px 0 8px 0;
+}
+
+/* Description inside Card */
+.menu-card p {
+  font-family: 'Fredoka One', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
