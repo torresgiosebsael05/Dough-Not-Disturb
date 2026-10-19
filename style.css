@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f7efe6;
+  overflow-x: hidden;
+}
+
+.desktop {
+  background-color: #f7efe6;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  margin: 0 auto; /* Center the layout on wider screens */
+}
+
+.desktop .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 140px;
+}
+
+.desktop .logo {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 288px;
+  height: 288px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper {
+  left: 298px;
+  width: 125px;
+  position: absolute;
+  top: 80px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .div {
+  position: absolute;
+  top: 80px;
+  left: 486px;
+  width: 127px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 80px;
+  left: 676px;
+  width: 211px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-3 {
+  left: 939px;
+  width: 205px;
+  position: absolute;
+  top: 80px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group-order {
+  position: absolute;
+  top: 85px;
+  left: 1196px;
+  width: 173px;
+  height: 39px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 171px;
+  height: 39px;
+  background-color: #b82b46;
+  border-radius: 22px;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 9px;
+  left: 23px;
+  width: 125px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  top: 206px;
+  left: 298px;
+  width: 1090px;
+  height: 419px;
+  background-color: #b82b46;
+  border-radius: 25px;
+}
+
+.desktop .img {
+  position: absolute;
+  top: 221px;
+  left: 325px;
+  width: 630px;
+  height: 385px;
+  aspect-ratio: 1.64;
+}
+
+.desktop .p {
+  position: absolute;
+  top: 154px;
+  left: 572px;
+  width: 541px;
+  font-family: "Lilita One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3d1e16;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .delicious-donut {
+  position: absolute;
+  top: 221px;
+  left: 974px;
+  width: 385px;
+  height: 385px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .group-pre-order {
+  position: absolute;
+  top: 378px;
+  left: 29px;
+  width: 252px;
+  height: 37px;
+}
+
+.desktop .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 37px;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 6px;
+  left: 27px;
+  width: 207px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .group-pre-order-2 {
+  position: absolute;
+  top: 429px;
+  left: 29px;
+  width: 252px;
+  height: 37px;
+}
+
+.desktop .view-today-s-menu {
+  position: absolute;
+  top: 8px;
+  left: 36px;
+  width: 184px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .donut-drawn-doughnut {
+  position: absolute;
+  top: 485px;
+  left: 43px;
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  top: 495px;
+  left: 88px;
+  width: 176px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3d1e16;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .donut-drawn-doughnut-2 {
+  top: 528px;
+  position: absolute;
+  left: 43px;
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .easy-store-pickup {
+  position: absolute;
+  top: 538px;
+  left: 83px;
+  width: 181px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3d1e16;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .donut-drawn-doughnut-3 {
+  top: 571px;
+  position: absolute;
+  left: 43px;
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  top: 582px;
+  left: 88px;
+  width: 176px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3d1e16;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .rectangle-5 {
+  position: absolute;
+  top: 691px;
+  left: 342px;
+  width: 305px;
+  height: 314px;
+  background-color: #b82b46;
+  border-radius: 25px;
+}
+
+.desktop .rectangle-6 {
+  position: absolute;
+  top: 691px;
+  left: 690px;
+  width: 305px;
+  height: 314px;
+  background-color: #b82b46;
+  border-radius: 25px;
+}
+
+.desktop .rectangle-7 {
+  position: absolute;
+  top: 691px;
+  left: 1038px;
+  width: 305px;
+  height: 314px;
+  background-color: #b82b46;
+  border-radius: 25px;
+}
+
+.desktop .baked-raspberry {
+  left: 394px;
+  object-fit: cover;
+  position: absolute;
+  top: 730px;
+  width: 201px;
+  height: 201px;
+  aspect-ratio: 1;
+}
+
+.desktop .baked-raspberry-2 {
+  left: 742px;
+  object-fit: cover;
+  position: absolute;
+  top: 730px;
+  width: 201px;
+  height: 201px;
+  aspect-ratio: 1;
+}
+
+.desktop .baked-raspberry-3 {
+  left: 1090px;
+  position: absolute;
+  top: 730px;
+  width: 201px;
+  height: 201px;
+  aspect-ratio: 1;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  top: 701px;
+  left: 415px;
+  width: 160px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  top: 701px;
+  left: 756px;
+  width: 174px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  top: 701px;
+  left: 1122px;
+  width: 137px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  top: 941px;
+  left: 346px;
+  width: 297px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  top: 941px;
+  left: 694px;
+  width: 297px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-13 {
+  position: absolute;
+  top: 941px;
+  left: 1042px;
+  width: 297px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #f7efe6;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group-pre-order-3 {
+  position: absolute;
+  top: 639px;
+  left: 342px;
+  width: 999px;
+  height: 38px;
+}
+
+.desktop .rectangle-8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 997px;
+  height: 38px;
+}
+
+.desktop .text-wrapper-14 {
+  position: absolute;
+  top: 8px;
+  left: 418px;
+  width: 166px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-15 {
+  position: absolute;
+  top: 283px;
+  left: 43px;
+  width: 221px;
+  font-family: "Lilita One", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3d1e16;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
