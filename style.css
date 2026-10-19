@@ -476,3 +476,25 @@ html, body {
   letter-spacing: 0;
   line-height: normal;
 }
+
+.desktop a:hover .text-wrapper,
+.desktop a:hover .div,
+.desktop a:hover .text-wrapper-2,
+.desktop a:hover .text-wrapper-3 {
+  color: #ffcc00; 
+  transition: color 0.2s ease;
+}
+
+.desktop .group-order:hover .rectangle-2 {
+  background-color: #962238; 
+  transform: scale(1.05); 
+  transition: all 0.2s ease;
+}
+
+.desktop .group-pre-order:hover,
+.desktop .group-pre-order-2:hover {
+  opacity: 0.85;
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
