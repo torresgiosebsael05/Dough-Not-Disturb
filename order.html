@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8" />
+  <title>Pre-Order - Dough Not Disturb</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="desktop" data-model-id="1:2">
+    <!-- Header / Navbar Section -->
+    <img class="rectangle" src="https://c.animaapp.com/b8unGpd5/img/rectangle-1.svg" />
+    <img class="logo" src="https://c.animaapp.com/b8unGpd5/img/logo@2x.png" />
+    
+    <!-- Navigation Links -->
+    <a href="index.html"><div class="text-wrapper">HOME</div></a>
+    <a href="menu.html"><div class="div">MENU</div></a>
+    <a href="about.html"><div class="text-wrapper-2">ABOUT US</div></a>
+    <a href="contact.html"><div class="text-wrapper-3">CONTACT</div></a>
+    
+    <!-- Order Now Button -->
+    <a href="order.html">
+      <div class="group-order">
+        <div class="rectangle-2"></div>
+        <div class="text-wrapper-4">ORDER NOW</div>
+      </div>
+    </a>
+
+    <!-- Order Form Container -->
+    <div class="order-card">
+      <h1 class="order-title">Pre-Order for Pickup</h1>
+      
+      <form class="order-form" onsubmit="event.preventDefault(); alert('Thank you for your order! We will have it ready for pickup at Clark Parade Grounds.');">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your full name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+63 9XX XXX XXXX" required />
+        </div>
+
+        <div class="form-group">
+          <label for="donut-select">Select Donuts</label>
+          <select id="donut-select" required>
+            <option value="" disabled selected>Choose your favorite donut...</option>
+            <option value="raspberry">Raspberry Blast</option>
+            <option value="fudge">Zero Fudge Given</option>
+            <option value="creme">Crème Brûlée</option>
+            <option value="assorted">Assorted Box (1 Dozen)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" min="1" max="50" value="1" required />
+        </div>
+
+        <div class="form-group">
+          <label for="pickup-time">Preferred Pickup Time</label>
+          <input type="time" id="pickup-time" required />
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Special Instructions / Notes</label>
+          <textarea id="notes" rows="3" placeholder="Any extra requests..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Pre-Order</button>
+      </form>
+    </div>
+  </div> 
+</body>
+</html>
